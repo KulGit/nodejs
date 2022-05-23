@@ -1,3 +1,4 @@
+
 const { green, yellow, red } = require("colors/safe");
 
 const isPrime = (number) => {
@@ -25,6 +26,7 @@ const from = process.argv[2];
 const to = process.argv[3];
 
 const displayNumber = () => {
+
     let primeCount = 0;
 
     for (let i = from; i <= to; i++) {
