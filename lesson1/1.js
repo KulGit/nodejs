@@ -11,6 +11,7 @@ const isPrime = (number) => {
   return true;
 };
 
+// function to get color
 const getColor = (n) => {
   switch (n % 3) {
     case 0:
