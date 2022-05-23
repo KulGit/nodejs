@@ -1,5 +1,6 @@
 const { green, yellow, red } = require("colors/safe");
 
+// just numbers
 const isPrime = (number) => {
   if (number < 2) return false;
 
