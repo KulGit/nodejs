@@ -1,4 +1,3 @@
-
 const { green, yellow, red } = require("colors/safe");
 
 const isPrime = (number) => {
